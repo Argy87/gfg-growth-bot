@@ -15,4 +15,4 @@ for media in medias:
     cl.media_like(media.id)
     cl.user_follow(media.user.pk)
 
-print(Bot ran successfully.)
+print("Bot ran successfully.")
