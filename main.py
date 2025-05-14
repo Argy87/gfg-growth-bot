@@ -1,8 +1,8 @@
 import os
 from instagrapi import Client
 
-username = os.getenv("grindsupplygear")
-password = os.getenv("Maxwell2011")
+username = os.getenv("username")
+password = os.getenv("password")
 
 cl = Client()
 cl.login(username, password)
