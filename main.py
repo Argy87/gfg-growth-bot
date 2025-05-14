@@ -11,7 +11,7 @@ cl.login(username, password)
 hashtag = gymgear
 medias = cl.hashtag_medias_recent(hashtag, amount=5)
 
-for media in medias
+for media in medias:
     cl.media_like(media.id)
     cl.user_follow(media.user.pk)
 
